@@ -1,6 +1,6 @@
-%define	ver	2.0.0
+%define	ver	2.1.0
 %define	majver	111
-%define	minver	0
+%define	minver	2
 %define	pak	pak128
 
 Summary:	A complete Simutrans game data package with 128x128 tiles
@@ -31,6 +31,5 @@ with 128x128 tiles. Internal version is %{ver}.
 %__rm -rf %{buildroot}
 
 %files
-%defattr(-,root,root)
 %{_libexecdir}/simutrans/*
 
