@@ -6,7 +6,7 @@
 Summary:	A complete Simutrans game data package with 128x128 tiles
 Name:		simutrans-%{pak}
 Version:	0.%{majver}.%{minver}
-Release:	%mkrel 1
+Release:	2
 License:	Artistic
 Group:		Games/Strategy
 URL:		http://www.simutrans.com
@@ -23,13 +23,18 @@ with 128x128 tiles. Internal version is %{ver}.
 %setup -q -c %{name}-%{version}
 
 %install
-%__rm -rf %{buildroot}
-%__mkdir_p %{buildroot}%{_libexecdir}/simutrans
-%__cp -pr simutrans/* %{buildroot}%{_libexecdir}/simutrans/
-
-%clean
-%__rm -rf %{buildroot}
+mkdir -p %{buildroot}%{_libexecdir}/simutrans
+cp -pr simutrans/* %{buildroot}%{_libexecdir}/simutrans/
 
 %files
 %{_libexecdir}/simutrans/*
+
+%changelog
+* Mon Apr 16 2012 Andrey Bondrov <abondrov@mandriva.org> 0.111.2-1
++ Revision: 791369
+- New version 2.1.0-111.2
+
+* Fri Dec 09 2011 Andrey Bondrov <abondrov@mandriva.org> 0.111.0-1
++ Revision: 739513
+- imported package simutrans-pak128
 
