@@ -6,7 +6,7 @@
 Summary:	A complete Simutrans game data package with 128x128 tiles
 Name:		simutrans-%{pak}
 Version:	0.%{majver}.%{minver}
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Games/Strategy
 URL:		http://www.simutrans.com
