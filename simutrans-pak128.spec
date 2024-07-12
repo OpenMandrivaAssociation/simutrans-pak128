@@ -1,17 +1,16 @@
-%define	ver	2.8.2
-%define	majver	123
-%define	minver	0
+%define	majver	124
+%define	minver	1
 %define	pak	pak128
 
 Summary:	A complete Simutrans game data package with 128x128 tiles
 Name:		simutrans-%{pak}
-Version:	2.8.2
+Version:	2.9.1
 Release:	1
 License:	Artistic
 Group:		Games/Strategy
 URL:		http://www.simutrans.com
 BuildArch:	noarch
-Source0:	https://downloads.sourceforge.net/project/simutrans/pak128/pak128%20%{version}%20for%20ST%20%{majver}up/simupak128-%{version}-for%{majver}.zip
+Source0:	https://downloads.sourceforge.net/project/simutrans/pak128/pak128%20for%20ST%20%20%{majver}.%{minver}up%20%28%{version}%29/simupak128-%{version}.zip
 Provides:	simutrans-pak = %EVRD
 Requires:	simutrans
 
