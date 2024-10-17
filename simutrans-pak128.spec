@@ -8,7 +8,7 @@ Version:	2.9.1
 Release:	1
 License:	Artistic
 Group:		Games/Strategy
-URL:		http://www.simutrans.com
+URL:		https://www.simutrans.com
 BuildArch:	noarch
 Source0:	https://downloads.sourceforge.net/project/simutrans/pak128/pak128%20for%20ST%20%20%{majver}.%{minver}up%20%28%{version}%29/simupak128-%{version}.zip
 Provides:	simutrans-pak = %EVRD
